@@ -78,53 +78,54 @@ pip install -r requirements.txt
 - **Request Body Example**:
   ```json
   {
-      "battery_power": 2000,
-      "blue": 1,
-      "clock_speed": 2.5,
-      "dual_sim": 1,
-      "fc": 5,
-      "four_g": 1,
-      "int_memory": 32,
-      "m_dep": 0.5,
-      "mobile_wt": 150,
-      "n_cores": 4,
-      "pc": 13,
-      "ram": 7000,
-      "talk_time": 15,
-      "three_g": 1,
-      "touch_screen": 1,
-      "wifi": 1,
-      "px_height": 1920,
-      "px_width": 1080,
-      "sc_h": 16,
-      "sc_w": 8
-  }
+    "battery_power": 1.294038,
+    "blue": 1,
+    "clock_speed": 1.566254,
+    "dual_sim": 0,
+    "fc": 1,
+    "four_g": 0,
+    "int_memory": -0.278599,
+    "m_dep": 1.380611,
+    "mobile_wt": 1.294042,
+    "n_cores": 4,
+    "pc": 4,
+    "px_height": 1.412573,
+    "px_width": 0.265530,
+    "ram": 0.250553,
+    "sc_h": 1.115486,
+    "sc_w": 0.972159,
+    "talk_time": 10,
+    "three_g": 0,
+    "touch_screen": 1,
+    "wifi": 1
+   }
+
   ```
 
 #### Example `curl` Request:
 ```bash
-curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{
-    "battery_power": 2000,
+curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d ' {
+    "battery_power": 1.294038,
     "blue": 1,
-    "clock_speed": 2.5,
-    "dual_sim": 1,
-    "fc": 5,
-    "four_g": 1,
-    "int_memory": 32,
-    "m_dep": 0.5,
-    "mobile_wt": 150,
+    "clock_speed": 1.566254,
+    "dual_sim": 0,
+    "fc": 1,
+    "four_g": 0,
+    "int_memory": -0.278599,
+    "m_dep": 1.380611,
+    "mobile_wt": 1.294042,
     "n_cores": 4,
-    "pc": 13,
-    "ram": 7000,
-    "talk_time": 15,
-    "three_g": 1,
+    "pc": 4,
+    "px_height": 1.412573,
+    "px_width": 0.265530,
+    "ram": 0.250553,
+    "sc_h": 1.115486,
+    "sc_w": 0.972159,
+    "talk_time": 10,
+    "three_g": 0,
     "touch_screen": 1,
-    "wifi": 1,
-    "px_height": 1920,
-    "px_width": 1080,
-    "sc_h": 16,
-    "sc_w": 8
-}'
+    "wifi": 1
+   }'
 ```
 
 ---
@@ -173,53 +174,53 @@ You can add device details to the system using the Spring Boot API.
 - **Request Body Example**:
   ```json
   {
-      "battery_power": 2000,
-      "blue": 1,
-      "clock_speed": 2.5,
-      "dual_sim": 1,
-      "fc": 5,
-      "four_g": 1,
-      "int_memory": 32,
-      "m_dep": 0.5,
-      "mobile_wt": 150,
-      "n_cores": 4,
-      "pc": 13,
-      "ram": 7000,
-      "talk_time": 15,
-      "three_g": 1,
-      "touch_screen": 1,
-      "wifi": 1,
-      "px_height": 1920,
-      "px_width": 1080,
-      "sc_h": 16,
-      "sc_w": 8
-  }
+    "battery_power": 1.294038,
+    "blue": 1,
+    "clock_speed": 1.566254,
+    "dual_sim": 0,
+    "fc": 1,
+    "four_g": 0,
+    "int_memory": -0.278599,
+    "m_dep": 1.380611,
+    "mobile_wt": 1.294042,
+    "n_cores": 4,
+    "pc": 4,
+    "px_height": 1.412573,
+    "px_width": 0.265530,
+    "ram": 0.250553,
+    "sc_h": 1.115486,
+    "sc_w": 0.972159,
+    "talk_time": 10,
+    "three_g": 0,
+    "touch_screen": 1,
+    "wifi": 1
+   }
   ```
 
 #### Example `curl` Request:
 ```bash
-curl -X POST http://127.0.0.1:8080/api/devices -H "Content-Type: application/json" -d '{
-    "battery_power": 2000,
+curl -X POST http://127.0.0.1:8080/api/devices -H "Content-Type: application/json" -d ' {
+    "battery_power": 1.294038,
     "blue": 1,
-    "clock_speed": 2.5,
-    "dual_sim": 1,
-    "fc": 5,
-    "four_g": 1,
-    "int_memory": 32,
-    "m_dep": 0.5,
-    "mobile_wt": 150,
+    "clock_speed": 1.566254,
+    "dual_sim": 0,
+    "fc": 1,
+    "four_g": 0,
+    "int_memory": -0.278599,
+    "m_dep": 1.380611,
+    "mobile_wt": 1.294042,
     "n_cores": 4,
-    "pc": 13,
-    "ram": 7000,
-    "talk_time": 15,
-    "three_g": 1,
+    "pc": 4,
+    "px_height": 1.412573,
+    "px_width": 0.265530,
+    "ram": 0.250553,
+    "sc_h": 1.115486,
+    "sc_w": 0.972159,
+    "talk_time": 10,
+    "three_g": 0,
     "touch_screen": 1,
-    "wifi": 1,
-    "px_height": 1920,
-    "px_width": 1080,
-    "sc_h": 16,
-    "sc_w": 8
-}'
+    "wifi": 1
+   }'
 ```
 
 ---
