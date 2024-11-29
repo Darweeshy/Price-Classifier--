@@ -67,27 +67,28 @@ price-classifier-python/
 - **Request Body Example**:
   ```json
   {
-      "battery_power": 2000,
-      "blue": 1,
-      "clock_speed": 2.5,
-      "dual_sim": 1,
-      "fc": 5,
-      "four_g": 1,
-      "int_memory": 32,
-      "m_dep": 0.5,
-      "mobile_wt": 150,
-      "n_cores": 4,
-      "pc": 13,
-      "ram": 7000,
-      "talk_time": 15,
-      "three_g": 1,
-      "touch_screen": 1,
-      "wifi": 1,
-      "px_height": 1920,
-      "px_width": 1080,
-      "sc_h": 16,
-      "sc_w": 8
-  }
+    "battery_power": -0.445060,
+    "blue": 1,
+    "clock_speed": 0.340463,
+    "dual_sim": 1,
+    "fc": 14,
+    "four_g": 0,
+    "int_memory": -1.492778,
+    "m_dep": -1.396231,
+    "mobile_wt": 1.492115,
+    "n_cores": 3,
+    "pc": 16,
+    "px_height": -0.945067,
+    "px_width": 0.372004,
+    "ram": 1.246441,
+    "sc_h": -0.072086,
+    "sc_w": 0.283336,
+    "talk_time": 2,
+    "three_g": 0,
+    "touch_screen": 1,
+    "wifi": 0
+}
+
   ```
 
 - **Response Example**:
