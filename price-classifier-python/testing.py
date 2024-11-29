@@ -5,7 +5,7 @@ import requests
 FLASK_API_URL = "http://127.0.0.1:5000/predict"
 
 # Load the test data
-csv_file = "data/test - test.csv"  # Path to your test dataset
+csv_file = "data\scaled test_data.csv"  # Path to your test dataset
 data = pd.read_csv(csv_file)
 
 # Drop the 'id' column (since it is not used in the model)
