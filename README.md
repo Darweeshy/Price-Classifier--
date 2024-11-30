@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 1. Start the Flask app:
    ```bash
-   python app/app.py
+   python app.py
    ```
 
 2. Verify that the Flask API is running by visiting:
